@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "rogue-class-mount-world-of-warcraft-4500x3000-4553.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

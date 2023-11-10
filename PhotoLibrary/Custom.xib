@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="Custom" id="iN0-l3-epB" customClass="Custom" customModule="PhotoLibrary" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view alpha="0.45000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e00-4A-rSu">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="xib" translatesAutoresizingMaskIntoConstraints="NO" id="bTy-f5-BMM">
+                    <rect key="frame" x="47.666666666666657" y="329.66666666666669" width="298" height="183.00000000000006"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="183" id="Vit-Wc-X6A"/>
+                        <constraint firstAttribute="width" constant="298" id="gq0-nr-lcP"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Password" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U6M-QE-ajZ">
+                    <rect key="frame" x="134.66666666666666" y="353" width="123.66666666666666" height="20.333333333333314"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zOL-uw-zkr">
+                    <rect key="frame" x="195.66666666666663" y="460.66666666666669" width="150" height="52.000000000000057"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="d1g-6e-K55"/>
+                        <constraint firstAttribute="height" constant="52" id="eF9-r9-i0B"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Cancel">
+                        <color key="baseForegroundColor" red="0.62130238900000001" green="0.23026620859999999" blue="0.25309966909999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </buttonConfiguration>
+                    <connections>
+                        <action selector="cancel:" destination="iN0-l3-epB" eventType="touchUpInside" id="r1w-Fc-yYi"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BfP-tk-8Rz">
+                    <rect key="frame" x="47.666666666666657" y="460.66666666666669" width="150" height="52.000000000000057"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="fCb-jh-agD"/>
+                        <constraint firstAttribute="height" constant="52" id="wme-mc-Urt"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="OK">
+                        <color key="baseForegroundColor" systemColor="tintColor"/>
+                    </buttonConfiguration>
+                </button>
+                <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="y4k-dM-qeU">
+                    <rect key="frame" x="86.666666666666686" y="404" width="220" height="34"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="220" id="sri-rP-134"/>
+                    </constraints>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                </textField>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="e00-4A-rSu" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="7x2-aT-Rgv"/>
+                <constraint firstItem="e00-4A-rSu" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="86D-fG-z0M"/>
+                <constraint firstItem="zOL-uw-zkr" firstAttribute="bottom" secondItem="bTy-f5-BMM" secondAttribute="bottom" id="8XZ-hB-l0n"/>
+                <constraint firstItem="U6M-QE-ajZ" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="9n5-Pz-Tww"/>
+                <constraint firstItem="bTy-f5-BMM" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="I5o-d4-kXa"/>
+                <constraint firstItem="BfP-tk-8Rz" firstAttribute="bottom" secondItem="bTy-f5-BMM" secondAttribute="bottom" id="OaP-WR-bMb"/>
+                <constraint firstItem="y4k-dM-qeU" firstAttribute="top" secondItem="U6M-QE-ajZ" secondAttribute="bottom" constant="30.666666666666686" id="Wlb-dd-Kx4"/>
+                <constraint firstItem="zOL-uw-zkr" firstAttribute="trailing" secondItem="bTy-f5-BMM" secondAttribute="trailing" id="b8P-Rp-b0F"/>
+                <constraint firstAttribute="bottom" secondItem="e00-4A-rSu" secondAttribute="bottom" id="dg9-X0-Wqn"/>
+                <constraint firstItem="bTy-f5-BMM" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="epM-HE-7Sc"/>
+                <constraint firstItem="y4k-dM-qeU" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="qWJ-3T-LS9"/>
+                <constraint firstItem="e00-4A-rSu" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="uMI-A4-3AY"/>
+                <constraint firstItem="y4k-dM-qeU" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="zJy-Lo-Cxb"/>
+                <constraint firstItem="BfP-tk-8Rz" firstAttribute="leading" secondItem="bTy-f5-BMM" secondAttribute="leading" id="zbc-4h-Qje"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="backgroundView" destination="e00-4A-rSu" id="7Il-Cx-ORq"/>
+                <outlet property="cancelButtom" destination="zOL-uw-zkr" id="zLN-R2-iLy"/>
+                <outlet property="okButton" destination="BfP-tk-8Rz" id="JVJ-Al-oZM"/>
+                <outlet property="textFiield" destination="y4k-dM-qeU" id="gy1-2E-4hS"/>
+                <outlet property="view" destination="bTy-f5-BMM" id="VuH-9h-9a4"/>
+            </connections>
+            <point key="canvasLocation" x="57.251908396946561" y="-226.05633802816902"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="xib" width="626" height="444"/>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

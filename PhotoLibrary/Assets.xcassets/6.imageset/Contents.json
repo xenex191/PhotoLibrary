@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "seashore-beach-aerial-view-coast-blue-ocean-water-waves-sand-3992x2242-5482.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
